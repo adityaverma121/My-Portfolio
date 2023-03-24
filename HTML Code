@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+</head>
+<body>
+	<header>
+		<h1>MY PORTFOLIO</h1>
+	</header>
+
+	<main>
+               <section>
+			
+			<figure>
+				<img src="image.jpg" alt="Image Description">
+				<figcaption>Image Description</figcaption>
+			</figure>
+		</section>
+
+
+
+
+                <section>
+			<h2>Name</h2>
+			<p>Aditya Kumar Verma</p>
+		</section>
+ 
+                <section>
+			<h2>REG NO</h2>
+			<p>22BEC0019</p>
+		</section>
+
+
+		<section>
+			<h2>About Me</h2>
+			<p>Hi, I'm Aditya Kumar Verma, student of VIT Vellore. I am persuing Btech in ECE. My interests lies in Web development and AI/ML.</p>
+		</section>
+
+	
+
+		<section>
+			<h2>Contact Me</h2>
+			<ul>
+				<li>Email: adityakumar.verma2022@vitstudent.ac.in</li>
+			
+				<li>Address: VIT, VELLORE</li>
+                                <li>LinkedIn: https://www.linkedin.com/in/adityaverma121/ </li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		
+	</footer>
+</body>
+</html>
