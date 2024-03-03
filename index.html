@@ -1,75 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title style="text-align:center;">My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #555;
+            color: #fff;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #007bff;
+            transform: scale(1.1);
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            table, th, td {
+                display: block;
+            }
+            th, td {
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 <body>
-	<header>
-		<h1 style="text-align:center;">Aditya Kumar Verma</h1>
-	</header>
+    <header>
+        <h1>Aditya Kumar Verma</h1>
+    </header>
 
-	<main>
-		<section>
-			<h2 style="text-align:center;">Skills</h2>
-			<table style="margin: 0 auto;">
-				<tr>
-					<th>Programming Languages</th>
-					<td style="padding-left: 40px;">Java</td>
-                                        <td style="padding-left: 40px;">Python</td>
-                                        <td style="padding-left: 40px;">MySQL</td>
-				</tr>
-				
-                         </table>
-		</section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate software developer with expertise in Java, Python, and MySQL. I love to work on challenging projects and strive for continuous learning and improvement.</p>
+        </section>
 
-		
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <th>Programming Languages</th>
+                    <td>Java</td>
+                    <td>Python</td>
+                    <td>MySQL</td>
+                </tr>
+            </table>
+        </section>
 
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Institution</th>
+                    <th>Major</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>BTech</td>
+                    <td>Vellore Institute of Technology</td>
+                    <td>ECE</td>
+                    <td>2022-2026</td>
+                </tr>
+                <tr>
+                    <td>10+2</td>
+                    <td>Kendriya Vidyalaya</td>
+                    <td>PCM</td>
+                    <td>2019-2021</td>
+                </tr>
+            </table>
+        </section>
 
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project 1:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li><strong>Project 2:</strong> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                <li><strong>Project 3:</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            </ul>
+        </section>
 
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/adityaverma121"><img src="linkedin.png" alt="LinkedIn" width="32" height="32"> LinkedIn</a></li>
+                <li><a href="mailto:adityakumar.verma2022@vitstudent.ac.in"><img src="gmail.png" alt="Twitter" width="32" height="32"> Gmail</a></li>
+                <li><a href="https://github.com/adityaverma121"><img src="github.png" alt="GitHub" width="32" height="32"> GitHub</a></li>
+            </ul>
+        </section>
+    </main>
 
-
-                <section style="margin-top: 50px;">
-			<h2 style="text-align:center;">Education</h2>
-			<table style="margin: 0 auto;">
-				<tr>
-					<th align="left" style="padding-right: 50px ;" ">Level</th>
-					<th align="center" style="padding-left: 50px ;">Institution</th>
-					<th align="center" style="padding-left: 50px ;">Major</th>
-					<th align="right" style="padding-left: 20px ;">Year</th>
-				</tr>
-				<tr>
-					<td align="left" style="padding-right: 50px ;">BTech</td>
-					<td align="center" style="padding-left: 50px ;">Vellore Institute of Technology</td>
-					<td align="center" style="padding-left: 50px ;">ECE</td>
-					<td align="right" style="padding-left: 40px ;">2022-2026</td>
-				</tr>
-				<tr>
-					<td align="left" style="padding-right: 50px ;">10+2</td>
-					<td align="center" style="padding-left: 50px ;">Kendriya Vidyalaya</td>
-					<td align="center" style="padding-left: 50px ;">PCM</td>
-					<td align="right" style="padding-left: 50px ;">2019-2021</td>
-				</tr>
-			</table>
-		</section>
-
-                <section style="margin-top: 100px;">
-                        <h2 style="text-align:center;">Connect With Me</h2>
-            
-             
-		        <table>
-                            
-			      <ul>
-				   <td><a href="https://www.linkedin.com/in/adityaverma121"><img src="linkedin.png" alt="LinkedIn" width="32" height="32" align="left" style="padding-left: 450px;" ></a></td>
-				   <td><a href="mailto:adityakumar.verma2022@vitstudent.ac.in"><img src="gmail.png" alt="Twitter" width="32" height="32" align="right" style="padding-left: 200px;" ></a></td>
-				
-				   <td><a href="https://github.com/adityaverma121"><img src="github.png" alt="GitHub" width="32" height="32" style="padding-left: 200px;" ></a></td>
-			     </ul>
-		       </table>
-               </section>
-	</main>
-
-	<footer>
-		
-	</footer>
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
 </body>
 </html>
+
